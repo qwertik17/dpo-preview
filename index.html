@@ -1,0 +1,2812 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>МИР — Межрегиональный институт развития | Дополнительное профессиональное образование</title>
+  <meta name="description" content="Дополнительное профессиональное образование: курсы повышения квалификации и профессиональной переподготовки. Дистанционное обучение с выдачей дипломов и удостоверений установленного образца.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <script type="module" crossorigin src="./assets/index-diQoy-Nd.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-SnVUc_l5.css">
+</head>
+<body>
+
+  <!-- 1. Header Top (Служебная строка - скроллится вместе со страницей) -->
+  <div class="header__top">
+    <div class="container header__top-container">
+  
+      <!-- Контакты и ссылки слева -->
+      <ul class="header__top-list">
+        <li class="header__top-item">
+          <svg class="icon icon--sm header__top-icon" aria-hidden="true">
+            <use href="../icons/sprite.svg#icon-phone"></use>
+          </svg>
+          <a href="tel:+78452221213" class="header__top-link header__top-link--bold">+7 (845-2) 22-12-13</a>
+        </li>
+  
+        <li class="header__top-item header__top-item--desktop">
+          <svg class="icon icon--sm header__top-icon" aria-hidden="true">
+            <use href="../icons/sprite.svg#icon-mail"></use>
+          </svg>
+          <a href="mailto:mir_do64@mail.ru" class="header__top-link">mir_do64@mail.ru</a>
+        </li>
+  
+        <li class="header__top-item header__top-item--desktop">
+          <svg class="icon icon--sm header__top-icon" aria-hidden="true">
+            <use href="../icons/sprite.svg#icon-info"></use>
+          </svg>
+          <a href="/information-about-organization/" class="header__top-link">Сведения об образовательной организации</a>
+        </li>
+  
+        <li class="header__top-item header__top-item--desktop">
+          <button type="button" class="header__top-accessibility js-accessibility-toggle" title="Версия для слабовидящих">
+            <svg class="icon icon--sm" aria-hidden="true">
+              <use href="../icons/sprite.svg#icon-eye"></use>
+            </svg>
+            <span>Версия для слабовидящих</span>
+          </button>
+        </li>
+      </ul>
+  
+      <!-- Кнопка справа -->
+      <div class="header__top-action">
+        <a href="http://lms.institut-razvitiya.ru/" target="_blank" rel="noopener noreferrer" class="header__top-btn">
+          Дистанционное обучение
+        </a>
+      </div>
+  
+    </div>
+  </div>
+  
+  <!-- 2. Header (Липкая основная шапка: логотип и меню) -->
+  <header class="header">
+  
+    <!-- 2. Header Main (Логотип и меню) -->
+    <div class="header__main">
+      <div class="container header__main-container">
+  
+        <!-- Логотип: оригинальная эмблема из варианта 1 + текст в верстке -->
+        <div class="header__logo-wrap">
+          <a href="/" class="header__logo-link" rel="home" title="Межрегиональный институт развития — Главная">
+            <img 
+              src="./assets/logo-emblem-BemDf4H3.png" 
+              alt="Эмблема МИР" 
+              class="header__logo-emblem" 
+              width="54" 
+              height="61"
+            >
+            <div class="header__logo-text">
+              <span class="header__logo-line header__logo-line--accent">Межрегиональный</span>
+              <span class="header__logo-line header__logo-line--primary">институт развития</span>
+            </div>
+          </a>
+        </div>
+  
+        <!-- Главное меню -->
+        <nav class="header__nav" aria-label="Основное меню">
+          <ul class="header__menu">
+            <li class="header__menu-item header__menu-item--active">
+              <a href="/" class="header__menu-link">ГЛАВНАЯ</a>
+            </li>
+  
+            <li class="header__menu-item">
+              <a href="#about" class="header__menu-link">О НАС</a>
+            </li>
+  
+            <li class="header__menu-item header__menu-item--has-children">
+              <a href="#programs" class="header__menu-link">
+                <span>ПРОГРАММЫ ОБУЧЕНИЯ</span>
+                <svg class="icon icon--xs header__menu-arrow" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </a>
+              <ul class="header__submenu">
+                <li class="header__submenu-item">
+                  <a href="#programs" class="header__submenu-link" data-tab-switch="tab-pk">Программы повышения квалификации</a>
+                </li>
+                <li class="header__submenu-item">
+                  <a href="#programs" class="header__submenu-link" data-tab-switch="tab-pp">Программы профессиональной переподготовки</a>
+                </li>
+              </ul>
+            </li>
+  
+            <li class="header__menu-item">
+              <a href="#projects" class="header__menu-link">ПРОЕКТЫ</a>
+            </li>
+  
+            <li class="header__menu-item">
+              <a href="#news" class="header__menu-link">НОВОСТИ</a>
+            </li>
+  
+            <li class="header__menu-item">
+              <a href="#contacts" class="header__menu-link">КОНТАКТЫ</a>
+            </li>
+          </ul>
+        </nav>
+  
+        <!-- Бургер для мобильных -->
+        <button 
+          type="button" 
+          class="header__burger js-burger-open" 
+          aria-label="Открыть меню" 
+          aria-expanded="false" 
+          aria-controls="mobile-nav"
+        >
+          <svg class="icon icon--lg" aria-hidden="true">
+            <use href="../icons/sprite.svg#icon-burger"></use>
+          </svg>
+        </button>
+  
+      </div>
+    </div>
+  
+    <!-- 3. Мобильное меню -->
+    <div class="mobile-nav js-mobile-menu" id="mobile-nav" aria-hidden="true">
+      <div class="mobile-nav__backdrop js-burger-close" tabindex="-1"></div>
+      <div class="mobile-nav__panel" role="dialog" aria-modal="true" aria-label="Мобильная навигация">
+  
+        <div class="mobile-nav__head">
+          <span class="mobile-nav__title">Меню</span>
+          <button type="button" class="mobile-nav__close js-burger-close" aria-label="Закрыть меню">
+            <svg class="icon icon--lg" aria-hidden="true">
+              <use href="../icons/sprite.svg#icon-close"></use>
+            </svg>
+          </button>
+        </div>
+  
+        <div class="mobile-nav__action">
+          <a href="http://lms.institut-razvitiya.ru/" target="_blank" rel="noopener noreferrer" class="header__top-btn header__top-btn--full">
+            Дистанционное обучение
+          </a>
+        </div>
+  
+        <nav class="mobile-nav__nav">
+          <ul class="mobile-nav__list">
+            <li><a href="/" class="mobile-nav__link js-mobile-link mobile-nav__link--active">ГЛАВНАЯ</a></li>
+            <li><a href="#about" class="mobile-nav__link js-mobile-link">О НАС</a></li>
+            <li class="mobile-nav__group">
+              <a href="#programs" class="mobile-nav__link js-mobile-link">ПРОГРАММЫ ОБУЧЕНИЯ</a>
+              <ul class="mobile-nav__sublist">
+                <li><a href="#programs" class="mobile-nav__sublink js-mobile-link" data-tab-switch="tab-pk">— Повышение квалификации</a></li>
+                <li><a href="#programs" class="mobile-nav__sublink js-mobile-link" data-tab-switch="tab-pp">— Профессиональная переподготовка</a></li>
+              </ul>
+            </li>
+            <li><a href="#projects" class="mobile-nav__link js-mobile-link">ПРОЕКТЫ</a></li>
+            <li><a href="#news" class="mobile-nav__link js-mobile-link">НОВОСТИ</a></li>
+            <li><a href="#contacts" class="mobile-nav__link js-mobile-link">КОНТАКТЫ</a></li>
+          </ul>
+        </nav>
+  
+        <div class="mobile-nav__contacts">
+          <a href="tel:+78452221213" class="mobile-nav__contact-item mobile-nav__contact-item--phone">
+            <svg class="icon icon--sm" aria-hidden="true">
+              <use href="../icons/sprite.svg#icon-phone"></use>
+            </svg>
+            <strong>+7 (845-2) 22-12-13</strong>
+          </a>
+  
+          <a href="mailto:mir_do64@mail.ru" class="mobile-nav__contact-item">
+            <svg class="icon icon--sm" aria-hidden="true">
+              <use href="../icons/sprite.svg#icon-mail"></use>
+            </svg>
+            <span>mir_do64@mail.ru</span>
+          </a>
+  
+          <a href="/information-about-organization/" class="mobile-nav__contact-item">
+            <svg class="icon icon--sm" aria-hidden="true">
+              <use href="../icons/sprite.svg#icon-info"></use>
+            </svg>
+            <span>Сведения об организации</span>
+          </a>
+  
+          <button type="button" class="mobile-nav__accessibility js-accessibility-toggle">
+            <svg class="icon icon--sm" aria-hidden="true">
+              <use href="../icons/sprite.svg#icon-eye"></use>
+            </svg>
+            <span>Версия для слабовидящих</span>
+          </button>
+        </div>
+  
+      </div>
+    </div>
+  
+  </header>
+
+  <main>
+    <section class="hero-section" id="hero" aria-label="Главные направления деятельности">
+      <div class="hero-slider swiper js-hero-slider">
+        <div class="swiper-wrapper">
+    
+          <!-- Слайд 1: Бюджетная грамотность -->
+          <div class="swiper-slide hero-slide">
+            <div 
+              class="hero-slide__bg" 
+              style="background-image: url('./assets/hero-slide-1-Cy4T0EvR.webp');" 
+              role="img" 
+              aria-label="Повышение бюджетной грамотности населения Саратовской области"
+            ></div>
+            <div class="hero-slide__overlay" aria-hidden="true"></div>
+            
+            <div class="container hero-slide__container">
+              <div class="hero-slide__content">
+                <span class="hero-slide__badge">Региональный проект</span>
+                <h1 class="hero-slide__title">
+                  Повышение бюджетной грамотности населения Саратовской области
+                </h1>
+                <p class="hero-slide__lead">
+                  Просветительские программы и практические семинары по финансовой и бюджетной грамотности для граждан и специалистов.
+                </p>
+                <div class="hero-slide__actions">
+                  <a href="#projects" class="btn btn--accent btn--lg">
+                    <span>Подробнее о проекте</span>
+                    <svg class="icon icon--sm" aria-hidden="true">
+                      <use href="../icons/sprite.svg#icon-arrow-right"></use>
+                    </svg>
+                  </a>
+                  <a href="#about" class="btn btn--outline-white btn--lg">
+                    О нас
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Слайд 2: Образовательная деятельность -->
+          <div class="swiper-slide hero-slide">
+            <div 
+              class="hero-slide__bg" 
+              style="background-image: url('./assets/hero-slide-2-S4rSsxd7.webp');" 
+              role="img" 
+              aria-label="Образовательная и просветительская деятельность"
+            ></div>
+            <div class="hero-slide__overlay" aria-hidden="true"></div>
+            
+            <div class="container hero-slide__container">
+              <div class="hero-slide__content">
+                <span class="hero-slide__subtitle">Повышение квалификации, профессиональная переподготовка</span>
+                <h2 class="hero-slide__title">
+                  Образовательная и просветительская деятельность
+                </h2>
+                <p class="hero-slide__lead">
+                  Дистанционные программы дополнительного профессионального образования с выдачей документов установленного образца и внесением в ФИС ФРДО.
+                </p>
+                <div class="hero-slide__actions">
+                  <a href="#programs" class="btn btn--accent btn--lg">
+                    <span>Программы обучения</span>
+                    <svg class="icon icon--sm" aria-hidden="true">
+                      <use href="../icons/sprite.svg#icon-arrow-right"></use>
+                    </svg>
+                  </a>
+                  <a href="http://lms.institut-razvitiya.ru/" target="_blank" rel="noopener noreferrer" class="btn btn--outline-white btn--lg">
+                    Дистанционное обучение
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Слайд 3: Проектная деятельность -->
+          <div class="swiper-slide hero-slide">
+            <div 
+              class="hero-slide__bg" 
+              style="background-image: url('./assets/hero-slide-3-8Qu3CFWH.webp');" 
+              role="img" 
+              aria-label="Проектная деятельность"
+            ></div>
+            <div class="hero-slide__overlay" aria-hidden="true"></div>
+            
+            <div class="container hero-slide__container">
+              <div class="hero-slide__content">
+                <span class="hero-slide__subtitle">Вебинары, лекции, медийные продукты</span>
+                <h2 class="hero-slide__title">
+                  Проектная деятельность
+                </h2>
+                <p class="hero-slide__lead">
+                  Комплексная реализация социально значимых инициатив, экспертные лекции, интерактивные обучающие форматы и медиаматериалы.
+                </p>
+                <div class="hero-slide__actions">
+                  <a href="#projects" class="btn btn--accent btn--lg">
+                    <span>Наши проекты</span>
+                    <svg class="icon icon--sm" aria-hidden="true">
+                      <use href="../icons/sprite.svg#icon-arrow-right"></use>
+                    </svg>
+                  </a>
+                  <a href="#contacts" class="btn btn--outline-white btn--lg">
+                    Связаться с нами
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Слайд 4: Научно-исследовательская деятельность -->
+          <div class="swiper-slide hero-slide">
+            <div 
+              class="hero-slide__bg" 
+              style="background-image: url('./assets/hero-slide-4-DIVxVfpi.webp');" 
+              role="img" 
+              aria-label="Научно-исследовательская деятельность"
+            ></div>
+            <div class="hero-slide__overlay" aria-hidden="true"></div>
+            
+            <div class="container hero-slide__container">
+              <div class="hero-slide__content">
+                <span class="hero-slide__subtitle">Анализ, расчеты, консалтинг</span>
+                <h2 class="hero-slide__title">
+                  Научно-исследовательская деятельность
+                </h2>
+                <p class="hero-slide__lead">
+                  Прикладные научные исследования, аналитическое сопровождение, разработка методических рекомендаций и экспертный консалтинг.
+                </p>
+                <div class="hero-slide__actions">
+                  <a href="#contacts" class="btn btn--accent btn--lg">
+                    <span>Заказать консультацию</span>
+                    <svg class="icon icon--sm" aria-hidden="true">
+                      <use href="../icons/sprite.svg#icon-arrow-right"></use>
+                    </svg>
+                  </a>
+                  <a href="#about" class="btn btn--outline-white btn--lg">
+                    Об институте
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+    
+        <!-- Стрелки навигации -->
+        <button type="button" class="hero-slider__nav hero-slider__nav--prev js-hero-prev" aria-label="Предыдущий слайд">
+          <svg class="icon icon--md" aria-hidden="true">
+            <use href="../icons/sprite.svg#icon-chevron-left"></use>
+          </svg>
+        </button>
+        <button type="button" class="hero-slider__nav hero-slider__nav--next js-hero-next" aria-label="Следующий слайд">
+          <svg class="icon icon--md" aria-hidden="true">
+            <use href="../icons/sprite.svg#icon-chevron-right"></use>
+          </svg>
+        </button>
+    
+        <!-- Пагинация (буллеты) -->
+        <div class="hero-slider__pagination js-hero-pagination" aria-label="Переключение слайдов"></div>
+    
+      </div>
+    </section>
+    <section class="features-section" id="features" aria-label="Ключевые направления">
+      <div class="container reveal-on-scroll">
+        <div class="features-panel">
+    
+          <!-- 1. Образовательная лицензия -->
+          <div class="feature-item">
+            <div class="feature-item__icon-wrap">
+              <svg class="icon feature-item__icon" aria-hidden="true">
+                <use href="../icons/sprite.svg#icon-license"></use>
+              </svg>
+            </div>
+            <h3 class="feature-item__title">Образовательная лицензия</h3>
+            <p class="feature-item__desc">на осуществление образовательной деятельности</p>
+            <a href="#about" class="feature-item__link">
+              <span>Подробнее</span>
+              <span class="feature-item__arrow" aria-hidden="true">&raquo;</span>
+            </a>
+          </div>
+    
+          <!-- 2. Широкий спектр программ -->
+          <div class="feature-item">
+            <div class="feature-item__icon-wrap">
+              <svg class="icon feature-item__icon" aria-hidden="true">
+                <use href="../icons/sprite.svg#icon-academic-cap"></use>
+              </svg>
+            </div>
+            <h3 class="feature-item__title">Широкий спектр программ</h3>
+            <p class="feature-item__desc">профессиональная переподготовка и повышение квалификации</p>
+            <a href="#programs" class="feature-item__link">
+              <span>Подробнее</span>
+              <span class="feature-item__arrow" aria-hidden="true">&raquo;</span>
+            </a>
+          </div>
+    
+          <!-- 3. Дистанционное обучение -->
+          <div class="feature-item">
+            <div class="feature-item__icon-wrap">
+              <svg class="icon feature-item__icon" aria-hidden="true">
+                <use href="../icons/sprite.svg#icon-laptop"></use>
+              </svg>
+            </div>
+            <h3 class="feature-item__title">Дистанционное обучение</h3>
+            <p class="feature-item__desc">в удобное время и удобном месте для вас, без отрыва от работы</p>
+            <a href="http://lms.institut-razvitiya.ru/" target="_blank" rel="noopener noreferrer" class="feature-item__link">
+              <span>Перейти</span>
+              <span class="feature-item__arrow" aria-hidden="true">&raquo;</span>
+            </a>
+          </div>
+    
+        </div>
+      </div>
+    </section>
+    <section class="advantages-section" id="advantages" aria-label="Преимущества института">
+      <div class="container reveal-on-scroll">
+    
+        <!-- Заголовок секции -->
+        <div class="advantages-header">
+          <h2 class="advantages-header__title">Почему нас выбирают?</h2>
+        </div>
+    
+        <!-- Сетка преимуществ из 4 самостоятельных карточек -->
+        <div class="advantages-grid">
+    
+          <!-- Карточка 1: Профстандарты -->
+          <article class="advantage-card">
+            <div class="advantage-card__top">
+              <span class="advantage-card__num">01</span>
+              <div class="advantage-card__icon-box">
+                <svg class="icon advantage-card__icon" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-shield"></use>
+                </svg>
+              </div>
+            </div>
+            <h3 class="advantage-card__title">Обучение по профстандартам</h3>
+            <p class="advantage-card__text">
+              Все программы разработаны в соответствии с требованиями действующих профессиональных стандартов.
+            </p>
+          </article>
+    
+          <!-- Карточка 2: Цены -->
+          <article class="advantage-card">
+            <div class="advantage-card__top">
+              <span class="advantage-card__num">02</span>
+              <div class="advantage-card__icon-box">
+                <svg class="icon advantage-card__icon" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-ruble"></use>
+                </svg>
+              </div>
+            </div>
+            <h3 class="advantage-card__title">Самые доступные цены</h3>
+            <p class="advantage-card__text">
+              Профессиональная переподготовка – от 9 500 руб.<br>
+              Повышение квалификации – от 4 500 руб.
+            </p>
+          </article>
+    
+          <!-- Карточка 3: Трудоустройство -->
+          <article class="advantage-card">
+            <div class="advantage-card__top">
+              <span class="advantage-card__num">03</span>
+              <div class="advantage-card__icon-box">
+                <svg class="icon advantage-card__icon" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-users"></use>
+                </svg>
+              </div>
+            </div>
+            <h3 class="advantage-card__title">Высокая степень трудоустройства выпускников</h3>
+            <p class="advantage-card__text">
+              В процессе трудовой деятельности выпускники используют учебные материалы, наполненные актуальными правовыми документами и профессиональными комментариями экспертов.
+            </p>
+          </article>
+    
+          <!-- Карточка 4: Актуальность -->
+          <article class="advantage-card">
+            <div class="advantage-card__top">
+              <span class="advantage-card__num">04</span>
+              <div class="advantage-card__icon-box">
+                <svg class="icon advantage-card__icon" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-refresh"></use>
+                </svg>
+              </div>
+            </div>
+            <h3 class="advantage-card__title">Актуальность образовательных программ</h3>
+            <p class="advantage-card__text">
+              Все программы разрабатываются и систематически обновляются с учетом действующего законодательства, а так же в соответствии с изменениями и дополнениями, вносимыми в нормативно-правовые акты.
+            </p>
+          </article>
+    
+        </div>
+    
+      </div>
+    </section>
+    <section class="about-section" id="about" aria-label="О институте и правовой базе">
+      <div class="container reveal-on-scroll">
+        <div class="about-grid">
+    
+          <!-- Левая колонка: Правовая основа и диаграмма 67% -->
+          <div class="about-content">
+            <p class="about-desc">
+              Деятельность Института в сфере дополнительного профессионального образования осуществляется на основании Федерального закона от 29.12.2012 г. № 273-ФЗ «Об образовании в Российской Федерации», Приказа Министерства образования и науки Российской Федерации от 01.07.2013 г. № 499 и иных нормативно-правовых актов.
+            </p>
+    
+            <!-- Круговой индикатор 67% -->
+            <div class="about-stat-box">
+              <div class="about-progress-ring" role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100" aria-label="67% успеха зависит от профессиональных знаний">
+                <svg class="about-ring-svg" viewBox="0 0 100 100">
+                  <circle class="about-ring-track" cx="50" cy="50" r="41" />
+                  <circle class="about-ring-fill" cx="50" cy="50" r="41" stroke-dasharray="257.6" stroke-dashoffset="85" />
+                  <text class="about-ring-text" x="50" y="52">67%</text>
+                </svg>
+              </div>
+    
+              <div class="about-stat-label">
+                Успеха зависит от<br>профессиональных знаний
+              </div>
+            </div>
+    
+            <div class="about-actions">
+              <a href="#consultation" class="btn btn--primary">
+                <span>Бесплатная консультация</span>
+                <svg class="icon icon--sm" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-arrow-right"></use>
+                </svg>
+              </a>
+              <a href="/information-about-organization/" class="btn btn--outline">
+                Сведения об организации
+              </a>
+            </div>
+          </div>
+    
+          <!-- Правая колонка: Фотография -->
+          <div class="about-media">
+            <div class="about-photo-wrap">
+              <img 
+                src="./assets/about-lady-BZcBY9xJ.webp" 
+                alt="Обучение в институте развития" 
+                class="about-photo" 
+                width="640" 
+                height="427"
+                loading="lazy"
+              >
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    </section>
+    <section class="consultation-section" id="consultation" aria-label="Бесплатная консультация">
+      <!-- Фоновое изображение с наложением градиента как на слайдере -->
+      <div 
+        class="consultation-section__bg" 
+        style="background-image: url('./assets/consultation-bg-DePC3MR9.webp');" 
+        role="img" 
+        aria-label="Фон консультации"
+      ></div>
+      <div class="consultation-section__overlay" aria-hidden="true"></div>
+    
+      <div class="container consultation-section__container reveal-on-scroll">
+        <div class="consultation-section__content">
+    
+          <!-- Левый блок: Текстовая информация строго из референса -->
+          <div class="consultation-section__info">
+            <span class="consultation-section__eyebrow">БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ</span>
+            <h2 class="consultation-section__title">Хотите задать нам вопрос?</h2>
+            <p class="consultation-section__desc">
+              Позвоните по указанному номеру или<br class="consultation-section__br">
+              заполните заявку и мы перезвоним вам в ближайшее время!
+            </p>
+          </div>
+    
+          <!-- Правый блок: Телефон и кнопка заявки -->
+          <div class="consultation-section__actions">
+            <!-- Телефон с иконкой -->
+            <a href="tel:+78452221213" class="consultation-phone" title="Позвонить в институт">
+              <div class="consultation-phone__icon-wrap">
+                <svg class="icon consultation-phone__icon" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-phone"></use>
+                </svg>
+              </div>
+              <span class="consultation-phone__val">8(845-2) 22-12-13</span>
+            </a>
+    
+            <!-- Кнопка действия (открытие модального окна) -->
+            <button type="button" class="btn btn--accent btn--lg consultation-section__btn" data-modal-open="modal-consultation">
+              <span>Заполнить заявку</span>
+              <svg class="icon icon--sm" aria-hidden="true">
+                <use href="../icons/sprite.svg#icon-arrow-right"></use>
+              </svg>
+            </button>
+          </div>
+    
+        </div>
+      </div>
+    </section>
+    <section class="programs-section js-tabs" id="programs" aria-label="Программы обучения">
+      <div class="container reveal-on-scroll">
+    
+        <!-- 1. Заголовок секции (без РЕАЛИЗАЦИЯ ПРОГРАММ) -->
+        <div class="programs-section__heading">
+          <h2 class="programs-section__title">Программы обучения</h2>
+        </div>
+    
+        <!-- 2. Переключатель вкладок на всю ширину с обновленным стилем -->
+        <div class="programs-tabs__nav" role="tablist" aria-label="Направления обучения">
+          <button 
+            type="button" 
+            class="programs-tabs__btn programs-tabs__btn--active js-tab-btn" 
+            data-tab="tab-pk" 
+            role="tab" 
+            aria-selected="true" 
+            aria-controls="tab-pk"
+          >
+            <div class="programs-tabs__btn-icon">
+              <svg class="icon icon--md" aria-hidden="true">
+                <use href="../icons/sprite.svg#icon-book-open"></use>
+              </svg>
+            </div>
+            <div class="programs-tabs__btn-text">
+              <span class="programs-tabs__btn-title">Повышение квалификации</span>
+              <span class="programs-tabs__btn-meta">8 направлений • 56 программ</span>
+            </div>
+          </button>
+    
+          <button 
+            type="button" 
+            class="programs-tabs__btn js-tab-btn" 
+            data-tab="tab-pp" 
+            role="tab" 
+            aria-selected="false" 
+            aria-controls="tab-pp"
+          >
+            <div class="programs-tabs__btn-icon">
+              <svg class="icon icon--md" aria-hidden="true">
+                <use href="../icons/sprite.svg#icon-academic-cap"></use>
+              </svg>
+            </div>
+            <div class="programs-tabs__btn-text">
+              <span class="programs-tabs__btn-title">Профессиональная переподготовка</span>
+              <span class="programs-tabs__btn-meta">12 направлений • 70 программ</span>
+            </div>
+          </button>
+        </div>
+    
+        <!-- 1. Вкладка: Повышение квалификации -->
+        <div class="programs-tabs__pane programs-tabs__pane--active js-tab-pane" id="tab-pk" role="tabpanel" aria-labelledby="tab-pk">
+    
+          <!-- Информационная карточка направления (текст 1:1 из референса) -->
+          <div class="programs-intro">
+            <div class="programs-intro__content">
+              <span class="programs-intro__eyebrow">РЕАЛИЗАЦИЯ ПРОГРАММ</span>
+              <h3 class="programs-intro__title">Повышения квалификации</h3>
+              <p class="programs-intro__desc">
+                направлена на совершенствование и (или) получение новой компетенции, необходимой для профессиональной деятельности, и (или) повышение профессионального уровня в рамках имеющейся квалификации. Повышение квалификации слушателя, успешно прошедшего итоговую аттестацию, подтверждается удостоверением о повышении квалификации установленного образца.
+              </p>
+            </div>
+            <div class="programs-intro__action">
+              <div class="programs-intro__doc">
+                <svg class="icon icon--lg programs-intro__doc-icon" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-license"></use>
+                </svg>
+                <div class="programs-intro__doc-info">
+                  <span class="programs-intro__doc-label">Выдаваемый документ:</span>
+                  <strong class="programs-intro__doc-name">Удостоверение о повышении квалификации</strong>
+                </div>
+              </div>
+              <button type="button" class="btn btn--accent btn--md programs-intro__btn" data-modal-open="modal-consultation">
+                <span>Подать заявку</span>
+                <svg class="icon icon--sm" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-arrow-right"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+    
+          <!-- Строка живого поиска по программам (под описанием реализации программ) -->
+          <div class="programs-search">
+            <div class="programs-search__field">
+              <svg class="icon icon--sm programs-search__icon" aria-hidden="true">
+                <use href="../icons/sprite.svg#icon-search"></use>
+              </svg>
+              <input 
+                type="search" 
+                class="programs-search__input js-programs-search" 
+                placeholder="Поиск по программам и направлениям (например: закупки, бухгалтерия, менеджмент, педагогика)..." 
+                aria-label="Поиск по программам обучения"
+                autocomplete="off"
+              >
+              <button type="button" class="programs-search__clear js-programs-search-clear" aria-label="Очистить поиск" hidden>
+                <svg class="icon icon--xs" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-close"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+    
+          <!-- Состояние 'Ничего не найдено' -->
+          <div class="programs-empty js-programs-empty" hidden>
+            <div class="programs-empty__icon">
+              <svg class="icon icon--lg" aria-hidden="true">
+                <use href="../icons/sprite.svg#icon-info"></use>
+              </svg>
+            </div>
+            <h3 class="programs-empty__title">Ничего не найдено</h3>
+            <p class="programs-empty__desc">
+              По запросу «<span class="js-empty-query"></span>» программы не найдены. Попробуйте изменить формулировку или сбросить фильтр.
+            </p>
+            <button type="button" class="btn btn--outline btn--sm js-programs-search-reset">
+              <span>Сбросить поиск</span>
+            </button>
+          </div>
+    
+          <!-- Каталог направлений: разметка строго по элементам (без оберток-колонок) -->
+          <div class="programs-accordion js-accordion">
+          <!-- Категория: Бухгалтерский учет -->
+          <div class="programs-accordion__item js-accordion-item" data-original-count="3 программы">
+            <button type="button" class="programs-accordion__btn js-accordion-btn" aria-expanded="false">
+              <span class="programs-accordion__title">Бухгалтерский учет</span>
+              <div class="programs-accordion__meta">
+                <span class="programs-accordion__badge">3 программы</span>
+                <svg class="icon icon--sm programs-accordion__arrow" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </div>
+            </button>
+            <div class="programs-accordion__content js-accordion-content">
+              <div class="programs-accordion__inner">
+                <div class="programs-accordion__body">
+                  <ul class="programs-list">
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-byudzhet-uchyet/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Бюджетный учет и отчетность</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-upravlencheskiy-uchyet/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Бухгалтерский управленческий учет</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-uchyet-aktivov/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Учет оборотных активов и обязательств</a>
+                    </li>
+                  </ul>
+                  <div class="programs-accordion__footer">
+                    <button type="button" class="btn btn--outline btn--sm programs-accordion__cta" data-modal-open="modal-consultation">
+                      <span>Записаться на курс</span>
+                      <svg class="icon icon--xs" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-arrow-right"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Категория: Менеджмент и маркетинг -->
+          <div class="programs-accordion__item js-accordion-item" data-original-count="4 программы">
+            <button type="button" class="programs-accordion__btn js-accordion-btn" aria-expanded="false">
+              <span class="programs-accordion__title">Менеджмент и маркетинг</span>
+              <div class="programs-accordion__meta">
+                <span class="programs-accordion__badge">4 программы</span>
+                <svg class="icon icon--sm programs-accordion__arrow" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </div>
+            </button>
+            <div class="programs-accordion__content js-accordion-content">
+              <div class="programs-accordion__inner">
+                <div class="programs-accordion__body">
+                  <ul class="programs-list">
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-kadr-men/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Кадровый менеджмент</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/?page_id=1356&amp;preview=true" target="_blank" rel="noopener noreferrer" class="programs-list__link">Эффективные технологии управления проектами</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/?page_id=1359&amp;preview=true" target="_blank" rel="noopener noreferrer" class="programs-list__link">Логистический менеджмент</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-plan-marketing/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Планирование маркетинговой деятельности предприятия</a>
+                    </li>
+                  </ul>
+                  <div class="programs-accordion__footer">
+                    <button type="button" class="btn btn--outline btn--sm programs-accordion__cta" data-modal-open="modal-consultation">
+                      <span>Записаться на курс</span>
+                      <svg class="icon icon--xs" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-arrow-right"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Категория: Государственные и муниципальные закупки -->
+          <div class="programs-accordion__item js-accordion-item" data-original-count="4 программы">
+            <button type="button" class="programs-accordion__btn js-accordion-btn" aria-expanded="false">
+              <span class="programs-accordion__title">Государственные и муниципальные закупки</span>
+              <div class="programs-accordion__meta">
+                <span class="programs-accordion__badge">4 программы</span>
+                <svg class="icon icon--sm programs-accordion__arrow" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </div>
+            </button>
+            <div class="programs-accordion__content js-accordion-content">
+              <div class="programs-accordion__inner">
+                <div class="programs-accordion__body">
+                  <ul class="programs-list">
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-223fz/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Актуальные вопросы практики применения 223-фз с учетом изменений в законодательстве</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-uprav-zakupkami-dly-rukovoditely/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Управление государственными и муниципальными закупками (для руководителя)</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/?page_id=1371&amp;preview=true" target="_blank" rel="noopener noreferrer" class="programs-list__link">Контрактная система в сфере закупок товаров, работ, услуг для обеспечения государственных и муниципальных нужд</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/?page_id=1374&amp;preview=true" target="_blank" rel="noopener noreferrer" class="programs-list__link">Управление государственными и муниципальными закупками</a>
+                    </li>
+                  </ul>
+                  <div class="programs-accordion__footer">
+                    <button type="button" class="btn btn--outline btn--sm programs-accordion__cta" data-modal-open="modal-consultation">
+                      <span>Записаться на курс</span>
+                      <svg class="icon icon--xs" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-arrow-right"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Категория: Государственное и муниципальное управление -->
+          <div class="programs-accordion__item js-accordion-item" data-original-count="19 программ">
+            <button type="button" class="programs-accordion__btn js-accordion-btn" aria-expanded="false">
+              <span class="programs-accordion__title">Государственное и муниципальное управление</span>
+              <div class="programs-accordion__meta">
+                <span class="programs-accordion__badge">19 программ</span>
+                <svg class="icon icon--sm programs-accordion__arrow" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </div>
+            </button>
+            <div class="programs-accordion__content js-accordion-content">
+              <div class="programs-accordion__inner">
+                <div class="programs-accordion__body">
+                  <ul class="programs-list">
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-akt-voprosy-razv-g-i-m-sluzhby/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Актуальные вопросы развития государственной и муниципальной службы</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-akt-voprosy-form-i-isp-byudzheta/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Актуальные вопросы формирования и исполнения бюджета</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-antikorruptsionnye-mekhanizmy/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Антикоррупционные механизмы в деятельности государственных органов. Функции подразделений кадровых служб государственных органов по профилактике коррупционных и иных правонарушений</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-vvodnyy-kurs-dlya-gos-gr-sluzh/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Вводный курс для государственных гражданских служащих (для лиц, впервые принятых на государственную гражданскую службу)</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-gmu/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Государственное и муниципальное управление</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-elektronnoe-pravitelstvo/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Информационно-коммуникационные технологии в государственном управлении. Электронное правительство</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-it-v-gos-upravlenii/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Информационное технологии в государственном управлении</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-kadrovaya-politika-i-ggs/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Кадровая политика и государственная гражданская служба</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-kaznacheyskoe-ispolnenie-byudzheta/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Казначейское исполнение бюджета</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-mekhanizmy-protivodeystviya/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Механизмы противодействия коррупции и профилактика коррупционных правонарушений в государственной гражданской службе</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-plan-i-isp-dokhodov-byudzheta/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Планирование и исполнение доходов бюджетов</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-prof-etika-i-etiket-gos-sluzh/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Профессиональная этика и этикет государственного служащего</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-realizatsiya-izm-byudzh-zak/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Реализация изменений бюджетного законодательства в отношении формирования государственного (муниципального) задания на основе нормативного метода в формате «Электронный бюджет»</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-reviziya-fin-khoz-deyatelnosti/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Ревизия финансово-хозяйственной деятельности</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-fin-sistema-i-byudzh-politika-gos/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Финансовая система и бюджетная политика государства</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-form-i-isp-byudzheta-mun-obr/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Формирование и исполнение бюджета муниципальных образований</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-ekonom-bezopasn-byudzheta-regiona/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Экономическая безопасность бюджета региона</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-effekt-tekhnologi-upr-proektami/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Эффективные технологии управления проектами</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-etika-i-psikhologiya-del-kom/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Этика и психология деловых коммуникаций</a>
+                    </li>
+                  </ul>
+                  <div class="programs-accordion__footer">
+                    <button type="button" class="btn btn--outline btn--sm programs-accordion__cta" data-modal-open="modal-consultation">
+                      <span>Записаться на курс</span>
+                      <svg class="icon icon--xs" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-arrow-right"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Категория: Охрана труда и экологическая безопасность -->
+          <div class="programs-accordion__item js-accordion-item" data-original-count="1 программа">
+            <button type="button" class="programs-accordion__btn js-accordion-btn" aria-expanded="false">
+              <span class="programs-accordion__title">Охрана труда и экологическая безопасность</span>
+              <div class="programs-accordion__meta">
+                <span class="programs-accordion__badge">1 программа</span>
+                <svg class="icon icon--sm programs-accordion__arrow" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </div>
+            </button>
+            <div class="programs-accordion__content js-accordion-content">
+              <div class="programs-accordion__inner">
+                <div class="programs-accordion__body">
+                  <ul class="programs-list">
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-opasnye-otkhody/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Обеспечение экологической безопасности при работах в области обращения с опасными отходами</a>
+                    </li>
+                  </ul>
+                  <div class="programs-accordion__footer">
+                    <button type="button" class="btn btn--outline btn--sm programs-accordion__cta" data-modal-open="modal-consultation">
+                      <span>Записаться на курс</span>
+                      <svg class="icon icon--xs" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-arrow-right"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Категория: Педагогика и психология для образовательных организаций дошкольного и школьного образования -->
+          <div class="programs-accordion__item js-accordion-item" data-original-count="15 программ">
+            <button type="button" class="programs-accordion__btn js-accordion-btn" aria-expanded="false">
+              <span class="programs-accordion__title">Педагогика и психология для образовательных организаций дошкольного и школьного образования</span>
+              <div class="programs-accordion__meta">
+                <span class="programs-accordion__badge">15 программ</span>
+                <svg class="icon icon--sm programs-accordion__arrow" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </div>
+            </button>
+            <div class="programs-accordion__content js-accordion-content">
+              <div class="programs-accordion__inner">
+                <div class="programs-accordion__body">
+                  <ul class="programs-list">
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-interaktivnye-tekhn-v-obr/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Интерактивные технологии в образовательном процессе в условиях реализации ФГОС начальной и основной школы (по предметам)</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-okazanie-pervoy-pomoshchi/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Оказание первой помощи</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-osoben-organiz-inklyuz-obraz/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Особенности организации инклюзивного образования</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-pedagog-deyateln/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Педагогическая деятельность в условиях реализации ФГОС начального общего образования</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-psikh-ped-soprovozhd-obraz-deyat/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Психолого-педагогическое сопровождение образовательного процесса</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-rppk-ruk-doshk-obr-org/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Развитие психолого-педагогических компетенций руководителя дошкольной образовательной организации с целью интеграции инклюзивного образования</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-rppk-trenera-prep-dpo/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Развитие психолого-педагогических компетенций тренера-преподавателя в сфере дополнительного образования детей и взрослых</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-rppk-trenera-prep-adaptivn-fizk/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Развитие психолого-педагогических компетенций тренера-преподавателя по адаптивной физкультуре в сфере дополнительного образования детей и взрослых</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-rppk-sots-ped-doshk-obr/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Развитие психолого-педагогических компетенций социального педагога образовательной организации в условиях реализации ФГОС дошкольного образования</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-rppk-vospitatelya-dosh-obr/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Развитие психолого-педагогических компетенций воспитателя дошкольной образовательной организации в условиях реализации ФГОС дошкольного образования</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-rppk-mediatora-shk/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Развитие психолого-педагогических компетенций медиатора-тренера школьной службы медиации в условиях реализации ФГОС начального и основного общего образования</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-rppk-pedagoga-dpobr/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Развитие психолого-педагогических компетенций педагога дополнительного образования в условиях реализации ФГОС начального и основного общего образования</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-rppk-prep-iskusstva/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Развитие психолого-педагогических компетенций преподавателя в области искусства в условиях реализации ФГОС основного общего образования</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-sot-psikh-sopr-deyat-shkoln-sluzh-mediatsii/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Социально-психологическое сопровождение деятельности школьной службы медиации</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-upravl-doshk-obrazov-organiz/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Управление дошкольной образовательной организацией в условиях реализации ФГОС дошкольного образования</a>
+                    </li>
+                  </ul>
+                  <div class="programs-accordion__footer">
+                    <button type="button" class="btn btn--outline btn--sm programs-accordion__cta" data-modal-open="modal-consultation">
+                      <span>Записаться на курс</span>
+                      <svg class="icon icon--xs" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-arrow-right"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Категория: Педагогика и психология для образовательных организаций СПО и ВО -->
+          <div class="programs-accordion__item js-accordion-item" data-original-count="7 программ">
+            <button type="button" class="programs-accordion__btn js-accordion-btn" aria-expanded="false">
+              <span class="programs-accordion__title">Педагогика и психология для образовательных организаций СПО и ВО</span>
+              <div class="programs-accordion__meta">
+                <span class="programs-accordion__badge">7 программ</span>
+                <svg class="icon icon--sm programs-accordion__arrow" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </div>
+            </button>
+            <div class="programs-accordion__content js-accordion-content">
+              <div class="programs-accordion__inner">
+                <div class="programs-accordion__body">
+                  <ul class="programs-list">
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-it-v-ekon-nauke/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Инновационные технологии в экономической науке и образовании</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-isp-ikt-v-obr/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Использование информационно-коммуникационных технологий в образовательном процессе</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-okazanie-pervoy-pomoshchi/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Оказание первой помощи</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-sovr-psikh-ped-tekh/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Современные психолого-педагогические технологии профессионального обучения</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-organiz-osnovy-uprav-sistem-obrazovan/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Организационные основы управления системой образования РФ</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-osoben-organiz-inklyuz-obraz/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Организация инклюзивного образования в высшей школе</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-testolog/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Развитие контрольно-оценочных компетенций педагогических кадров в условиях разработки и экспертизы тестовых материалов (тестолог)</a>
+                    </li>
+                  </ul>
+                  <div class="programs-accordion__footer">
+                    <button type="button" class="btn btn--outline btn--sm programs-accordion__cta" data-modal-open="modal-consultation">
+                      <span>Записаться на курс</span>
+                      <svg class="icon icon--xs" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-arrow-right"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Категория: Педагогика и психология для образовательных организаций дополнительного образования -->
+          <div class="programs-accordion__item js-accordion-item" data-original-count="3 программы">
+            <button type="button" class="programs-accordion__btn js-accordion-btn" aria-expanded="false">
+              <span class="programs-accordion__title">Педагогика и психология для образовательных организаций дополнительного образования</span>
+              <div class="programs-accordion__meta">
+                <span class="programs-accordion__badge">3 программы</span>
+                <svg class="icon icon--sm programs-accordion__arrow" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </div>
+            </button>
+            <div class="programs-accordion__content js-accordion-content">
+              <div class="programs-accordion__inner">
+                <div class="programs-accordion__body">
+                  <ul class="programs-list">
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-okazanie-pervoy-pomoshchi/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Оказание первой помощи</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-rppk-trenera-prep-adaptivn-fizk/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Развитие психолого-педагогических компетенций тренера-преподавателя по адаптивной физкультуре в сфере дополнительного образования детей и взрослых</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pk-rppk-trenera-prep-dpo/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Развитие психолого-педагогических компетенций тренера-преподавателя в сфере дополнительного образования детей и взрослых</a>
+                    </li>
+                  </ul>
+                  <div class="programs-accordion__footer">
+                    <button type="button" class="btn btn--outline btn--sm programs-accordion__cta" data-modal-open="modal-consultation">
+                      <span>Записаться на курс</span>
+                      <svg class="icon icon--xs" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-arrow-right"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+    
+        </div>
+    
+        <!-- 2. Вкладка: Профессиональная переподготовка -->
+        <div class="programs-tabs__pane js-tab-pane" id="tab-pp" role="tabpanel" aria-labelledby="tab-pp">
+    
+          <!-- Информационная карточка направления (текст 1:1 из референса) -->
+          <div class="programs-intro">
+            <div class="programs-intro__content">
+              <span class="programs-intro__eyebrow">РЕАЛИЗАЦИЯ ПРОГРАММ</span>
+              <h3 class="programs-intro__title">Профессиональной переподготовки</h3>
+              <p class="programs-intro__desc">
+                направлена на получение компетенции, необходимой для выполнения нового вида профессиональной деятельности, приобретение новой квалификации. По итогам обучения по программе профессиональной переподготовки слушателю, успешно прошедшему итоговую аттестацию, выдается диплом о профессиональной переподготовке установленного образца.
+              </p>
+            </div>
+            <div class="programs-intro__action">
+              <div class="programs-intro__doc">
+                <svg class="icon icon--lg programs-intro__doc-icon" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-academic-cap"></use>
+                </svg>
+                <div class="programs-intro__doc-info">
+                  <span class="programs-intro__doc-label">Выдаваемый документ:</span>
+                  <strong class="programs-intro__doc-name">Диплом о профессиональной переподготовке</strong>
+                </div>
+              </div>
+              <button type="button" class="btn btn--accent btn--md programs-intro__btn" data-modal-open="modal-consultation">
+                <span>Подать заявку</span>
+                <svg class="icon icon--sm" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-arrow-right"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+    
+          <!-- Строка живого поиска по программам (под описанием реализации программ) -->
+          <div class="programs-search">
+            <div class="programs-search__field">
+              <svg class="icon icon--sm programs-search__icon" aria-hidden="true">
+                <use href="../icons/sprite.svg#icon-search"></use>
+              </svg>
+              <input 
+                type="search" 
+                class="programs-search__input js-programs-search" 
+                placeholder="Поиск по программам и направлениям (например: закупки, бухгалтерия, менеджмент, педагогика)..." 
+                aria-label="Поиск по программам обучения"
+                autocomplete="off"
+              >
+              <button type="button" class="programs-search__clear js-programs-search-clear" aria-label="Очистить поиск" hidden>
+                <svg class="icon icon--xs" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-close"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+    
+          <!-- Состояние 'Ничего не найдено' -->
+          <div class="programs-empty js-programs-empty" hidden>
+            <div class="programs-empty__icon">
+              <svg class="icon icon--lg" aria-hidden="true">
+                <use href="../icons/sprite.svg#icon-info"></use>
+              </svg>
+            </div>
+            <h3 class="programs-empty__title">Ничего не найдено</h3>
+            <p class="programs-empty__desc">
+              По запросу «<span class="js-empty-query"></span>» программы не найдены. Попробуйте изменить формулировку или сбросить фильтр.
+            </p>
+            <button type="button" class="btn btn--outline btn--sm js-programs-search-reset">
+              <span>Сбросить поиск</span>
+            </button>
+          </div>
+    
+          <!-- Каталог направлений: разметка строго по элементам (без оберток-колонок) -->
+          <div class="programs-accordion js-accordion">
+          <!-- Категория: Государственные и муниципальные закупки -->
+          <div class="programs-accordion__item js-accordion-item" data-original-count="2 программы">
+            <button type="button" class="programs-accordion__btn js-accordion-btn" aria-expanded="false">
+              <span class="programs-accordion__title">Государственные и муниципальные закупки</span>
+              <div class="programs-accordion__meta">
+                <span class="programs-accordion__badge">2 программы</span>
+                <svg class="icon icon--sm programs-accordion__arrow" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </div>
+            </button>
+            <div class="programs-accordion__content js-accordion-content">
+              <div class="programs-accordion__inner">
+                <div class="programs-accordion__body">
+                  <ul class="programs-list">
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-upravlenie-zakupkami/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Управление государственными и муниципальными закупками</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-kontraktnaya-sistema-v-sfere-zakupok/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Контрактная система в сфере закупок товаров, работ, услуг для обеспечения государственных и муниципальных нужд</a>
+                    </li>
+                  </ul>
+                  <div class="programs-accordion__footer">
+                    <button type="button" class="btn btn--outline btn--sm programs-accordion__cta" data-modal-open="modal-consultation">
+                      <span>Записаться на курс</span>
+                      <svg class="icon icon--xs" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-arrow-right"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Категория: Управление человеческими ресурсами -->
+          <div class="programs-accordion__item js-accordion-item" data-original-count="5 программ">
+            <button type="button" class="programs-accordion__btn js-accordion-btn" aria-expanded="false">
+              <span class="programs-accordion__title">Управление человеческими ресурсами</span>
+              <div class="programs-accordion__meta">
+                <span class="programs-accordion__badge">5 программ</span>
+                <svg class="icon icon--sm programs-accordion__arrow" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </div>
+            </button>
+            <div class="programs-accordion__content js-accordion-content">
+              <div class="programs-accordion__inner">
+                <div class="programs-accordion__body">
+                  <ul class="programs-list">
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-obespechenie-deyatelnosti-rukovoditelya-organiz/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Организационное, документационное и информационное обеспечение деятельности руководителя организации</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-upravlenie-personalom/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Управление персоналом</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-kadrovoe-deloproizvodstvo-252/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Кадровое делопроизводство (252 часа)</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-kadrovoe-deloproizvodstvo-504/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Кадровое делопроизводство (504 часа)</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-rekruter/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Специалист по подбору персонала (рекрутер)</a>
+                    </li>
+                  </ul>
+                  <div class="programs-accordion__footer">
+                    <button type="button" class="btn btn--outline btn--sm programs-accordion__cta" data-modal-open="modal-consultation">
+                      <span>Записаться на курс</span>
+                      <svg class="icon icon--xs" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-arrow-right"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Категория: Социальная работа -->
+          <div class="programs-accordion__item js-accordion-item" data-original-count="11 программ">
+            <button type="button" class="programs-accordion__btn js-accordion-btn" aria-expanded="false">
+              <span class="programs-accordion__title">Социальная работа</span>
+              <div class="programs-accordion__meta">
+                <span class="programs-accordion__badge">11 программ</span>
+                <svg class="icon icon--sm programs-accordion__arrow" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </div>
+            </button>
+            <div class="programs-accordion__content js-accordion-content">
+              <div class="programs-accordion__inner">
+                <div class="programs-accordion__body">
+                  <ul class="programs-list">
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-psikholog-v-sots-sfere/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Психолог в социальной сфере</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-menedgment-kult-iskusstvo/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Менеджмент в сфере культуры и искусства</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-kultorganizator/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Менеджер по культурно-массовому досугу (Культорганизатор)</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-sidelka/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Сиделка</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-bibliotechno-infommacionnaya-deyatelnost/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Специалист в области библиотечно-информационной деятельности</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-socrabotnik/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Социальный работник</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/sots-pedagog/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Социальный педагог</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-spetsialist-po-sotsialnoy-rabote/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Специалист по социальной работе/Социальная работа</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-spetsialist-po-rabote-s-semey/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Специалист по работе с семьей</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-spetsialist-po-reabilitatsionnoy-rabote/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Специалист по реабилитационной работе</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-poxoronnoe-delo/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Специалист в области похоронного дела</a>
+                    </li>
+                  </ul>
+                  <div class="programs-accordion__footer">
+                    <button type="button" class="btn btn--outline btn--sm programs-accordion__cta" data-modal-open="modal-consultation">
+                      <span>Записаться на курс</span>
+                      <svg class="icon icon--xs" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-arrow-right"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Категория: Менеджмент и маркетинг -->
+          <div class="programs-accordion__item js-accordion-item" data-original-count="10 программ">
+            <button type="button" class="programs-accordion__btn js-accordion-btn" aria-expanded="false">
+              <span class="programs-accordion__title">Менеджмент и маркетинг</span>
+              <div class="programs-accordion__meta">
+                <span class="programs-accordion__badge">10 программ</span>
+                <svg class="icon icon--sm programs-accordion__arrow" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </div>
+            </button>
+            <div class="programs-accordion__content js-accordion-content">
+              <div class="programs-accordion__inner">
+                <div class="programs-accordion__body">
+                  <ul class="programs-list">
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-kadr-menedzhment/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Кадровый менеджмент</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-kultorganizator/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Менеджер по культурно-массовому досугу (Культорганизатор)</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-menedzhment-v-obrazovanii-504/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Менеджмент в образовании</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-menedgment-kult-iskusstvo/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Менеджмент в сфере культуры и искусства</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-menedzhment-organizatsii/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Менеджмент организации</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-menedzment-soc-sfera/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Менеджмент в социальной сфере</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-risk-menedzh-260/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Риск-менеджмент (260 часов)</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-risk-menedzh-504/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Риск-менеджмент (504 часа)</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-ruk-org-obl-fizkul-260/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Руководитель организации (подразделения), осуществляющей деятельность в области физической культуры и спорта (260 часов)</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-ruk-org-obl-fizkul-504/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Руководитель организации (подразделения), осуществляющей деятельность в области физической культуры и спорта (504 часа)</a>
+                    </li>
+                  </ul>
+                  <div class="programs-accordion__footer">
+                    <button type="button" class="btn btn--outline btn--sm programs-accordion__cta" data-modal-open="modal-consultation">
+                      <span>Записаться на курс</span>
+                      <svg class="icon icon--xs" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-arrow-right"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Категория: Бухгалтерский учет -->
+          <div class="programs-accordion__item js-accordion-item" data-original-count="2 программы">
+            <button type="button" class="programs-accordion__btn js-accordion-btn" aria-expanded="false">
+              <span class="programs-accordion__title">Бухгалтерский учет</span>
+              <div class="programs-accordion__meta">
+                <span class="programs-accordion__badge">2 программы</span>
+                <svg class="icon icon--sm programs-accordion__arrow" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </div>
+            </button>
+            <div class="programs-accordion__content js-accordion-content">
+              <div class="programs-accordion__inner">
+                <div class="programs-accordion__body">
+                  <ul class="programs-list">
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-bukhuchyet-i-audit/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Бухгалтерский учет и аудит</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-bukhuchyet/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Бухгалтерский учет</a>
+                    </li>
+                  </ul>
+                  <div class="programs-accordion__footer">
+                    <button type="button" class="btn btn--outline btn--sm programs-accordion__cta" data-modal-open="modal-consultation">
+                      <span>Записаться на курс</span>
+                      <svg class="icon icon--xs" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-arrow-right"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Категория: Государственное и муниципальное управление -->
+          <div class="programs-accordion__item js-accordion-item" data-original-count="2 программы">
+            <button type="button" class="programs-accordion__btn js-accordion-btn" aria-expanded="false">
+              <span class="programs-accordion__title">Государственное и муниципальное управление</span>
+              <div class="programs-accordion__meta">
+                <span class="programs-accordion__badge">2 программы</span>
+                <svg class="icon icon--sm programs-accordion__arrow" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </div>
+            </button>
+            <div class="programs-accordion__content js-accordion-content">
+              <div class="programs-accordion__inner">
+                <div class="programs-accordion__body">
+                  <ul class="programs-list">
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-gmu/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Государственное и муниципальное управление</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-ugmf/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Управление государственными и муниципальными финансами</a>
+                    </li>
+                  </ul>
+                  <div class="programs-accordion__footer">
+                    <button type="button" class="btn btn--outline btn--sm programs-accordion__cta" data-modal-open="modal-consultation">
+                      <span>Записаться на курс</span>
+                      <svg class="icon icon--xs" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-arrow-right"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Категория: Деньги, банки и финансовые рынки -->
+          <div class="programs-accordion__item js-accordion-item" data-original-count="13 программ">
+            <button type="button" class="programs-accordion__btn js-accordion-btn" aria-expanded="false">
+              <span class="programs-accordion__title">Деньги, банки и финансовые рынки</span>
+              <div class="programs-accordion__meta">
+                <span class="programs-accordion__badge">13 программ</span>
+                <svg class="icon icon--sm programs-accordion__arrow" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </div>
+            </button>
+            <div class="programs-accordion__content js-accordion-content">
+              <div class="programs-accordion__inner">
+                <div class="programs-accordion__body">
+                  <ul class="programs-list">
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-specialist-po-kredit-brokeridzhu/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Специалист по брокериджу</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-spetst-po-zalogami/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Специалист по работе с залогами</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-specialist-finconsultirovaniu/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Специалист по финансовому консультированию</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-distancionnoe-bankovskoe-obslugivanie/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Специалист по дистанционному банковскому обслуживанию</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-specialist-po-potrebkredit/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Специалист по потребительскому кредитованию</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-specialist-po-ipotechnomu-kreditovaniu/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Специалист по ипотечному кредитованию</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-specialist-po-korporativnumu-kreditovaniu/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Специалист по корпоративному кредитованию</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-specialist-s-zadolgnostyu/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Специалист по работе с просроченной задолженностью</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-specialist-investproektam/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Специалист по работе с инвестиционными проектами</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-specialist-dragmet/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Специалист по операциям с драгоценными металлами</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-specialist-po-lizingu/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Специалист по лизинговой деятельности</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-specialist-po-upravleniyu-riskami/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Специалист по управлению рисками</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-bakovskoe-delo/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Банковское дело</a>
+                    </li>
+                  </ul>
+                  <div class="programs-accordion__footer">
+                    <button type="button" class="btn btn--outline btn--sm programs-accordion__cta" data-modal-open="modal-consultation">
+                      <span>Записаться на курс</span>
+                      <svg class="icon icon--xs" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-arrow-right"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Категория: Охрана труда и экологическая безопасность -->
+          <div class="programs-accordion__item js-accordion-item" data-original-count="2 программы">
+            <button type="button" class="programs-accordion__btn js-accordion-btn" aria-expanded="false">
+              <span class="programs-accordion__title">Охрана труда и экологическая безопасность</span>
+              <div class="programs-accordion__meta">
+                <span class="programs-accordion__badge">2 программы</span>
+                <svg class="icon icon--sm programs-accordion__arrow" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </div>
+            </button>
+            <div class="programs-accordion__content js-accordion-content">
+              <div class="programs-accordion__inner">
+                <div class="programs-accordion__body">
+                  <ul class="programs-list">
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-okhrany-truda/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Специалист в области охраны труда</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-spetsialist-ekolog/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Специалист в области охраны труда и техносферной (экологической) безопасности</a>
+                    </li>
+                  </ul>
+                  <div class="programs-accordion__footer">
+                    <button type="button" class="btn btn--outline btn--sm programs-accordion__cta" data-modal-open="modal-consultation">
+                      <span>Записаться на курс</span>
+                      <svg class="icon icon--xs" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-arrow-right"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Категория: Педагогика для образовательных организаций СПО и ВО -->
+          <div class="programs-accordion__item js-accordion-item" data-original-count="4 программы">
+            <button type="button" class="programs-accordion__btn js-accordion-btn" aria-expanded="false">
+              <span class="programs-accordion__title">Педагогика для образовательных организаций СПО и ВО</span>
+              <div class="programs-accordion__meta">
+                <span class="programs-accordion__badge">4 программы</span>
+                <svg class="icon icon--sm programs-accordion__arrow" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </div>
+            </button>
+            <div class="programs-accordion__content js-accordion-content">
+              <div class="programs-accordion__inner">
+                <div class="programs-accordion__body">
+                  <ul class="programs-list">
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-menedzhment-v-obrazovanii-504/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Менеджмент в образовании</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-pedagog-prof/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Педагог профессионального образования (по направлениям деятельности)</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-pedagog-prof-obuch/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Педагог профессионального обучения</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/sots-pedagog/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Социальный педагог</a>
+                    </li>
+                  </ul>
+                  <div class="programs-accordion__footer">
+                    <button type="button" class="btn btn--outline btn--sm programs-accordion__cta" data-modal-open="modal-consultation">
+                      <span>Записаться на курс</span>
+                      <svg class="icon icon--xs" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-arrow-right"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Категория: Педагогика для образовательных организаций дошкольного и школьного образования -->
+          <div class="programs-accordion__item js-accordion-item" data-original-count="14 программ">
+            <button type="button" class="programs-accordion__btn js-accordion-btn" aria-expanded="false">
+              <span class="programs-accordion__title">Педагогика для образовательных организаций дошкольного и школьного образования</span>
+              <div class="programs-accordion__meta">
+                <span class="programs-accordion__badge">14 программ</span>
+                <svg class="icon icon--sm programs-accordion__arrow" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </div>
+            </button>
+            <div class="programs-accordion__content js-accordion-content">
+              <div class="programs-accordion__inner">
+                <div class="programs-accordion__body">
+                  <ul class="programs-list">
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-menedzhment-v-obrazovanii-504/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Менеджмент в образовании</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-doshkolnoe-obrazovanie/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Дошкольное образование</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-vospitatel/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Воспитатель дошкольной образовательной организации</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-pedagogich-po-napravleniyam/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Педагогическое образование: преподаватель (учитель) русского языка и литературы</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-pedagogich-po-napravleniyam/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Педагогическое образование: преподаватель (учитель) математики и информатики</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-pedagogich-po-napravleniyam/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Педагогическое образование: преподаватель (учитель) физики</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-pedagogich-po-napravleniyam/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Педагогическое образование: преподаватель (учитель) биологии и экологии</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-pedagogich-po-napravleniyam/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Педагогическое образование: преподаватель (учитель) истории и обществознания</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-pedagogich-po-napravleniyam/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Педагогическое образование: преподаватель (учитель) химии</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-pedagogich-po-napravleniyam/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Педагогическое образование: преподаватель (учитель) иностранного языка</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-pedagogich-po-napravleniyam/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Педагогическое образование: преподаватель (учитель) технологии</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-pedagogich-po-napravleniyam/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Педагогическое образование: преподаватель (учитель) физической культуры</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-pedagogich-po-napravleniyam/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Педагогическое образование: преподаватель (учитель) предметной области искусства</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/sots-pedagog/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Социальный педагог</a>
+                    </li>
+                  </ul>
+                  <div class="programs-accordion__footer">
+                    <button type="button" class="btn btn--outline btn--sm programs-accordion__cta" data-modal-open="modal-consultation">
+                      <span>Записаться на курс</span>
+                      <svg class="icon icon--xs" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-arrow-right"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Категория: Педагогика для образовательных организаций дополнительного образования -->
+          <div class="programs-accordion__item js-accordion-item" data-original-count="2 программы">
+            <button type="button" class="programs-accordion__btn js-accordion-btn" aria-expanded="false">
+              <span class="programs-accordion__title">Педагогика для образовательных организаций дополнительного образования</span>
+              <div class="programs-accordion__meta">
+                <span class="programs-accordion__badge">2 программы</span>
+                <svg class="icon icon--sm programs-accordion__arrow" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </div>
+            </button>
+            <div class="programs-accordion__content js-accordion-content">
+              <div class="programs-accordion__inner">
+                <div class="programs-accordion__body">
+                  <ul class="programs-list">
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-menedzhment-v-obrazovanii-504/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Менеджмент в образовании</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-pedagog-dop-obr/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Педагог дополнительного образования (Педагог-организатор)</a>
+                    </li>
+                  </ul>
+                  <div class="programs-accordion__footer">
+                    <button type="button" class="btn btn--outline btn--sm programs-accordion__cta" data-modal-open="modal-consultation">
+                      <span>Записаться на курс</span>
+                      <svg class="icon icon--xs" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-arrow-right"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Категория: Психология -->
+          <div class="programs-accordion__item js-accordion-item" data-original-count="3 программы">
+            <button type="button" class="programs-accordion__btn js-accordion-btn" aria-expanded="false">
+              <span class="programs-accordion__title">Психология</span>
+              <div class="programs-accordion__meta">
+                <span class="programs-accordion__badge">3 программы</span>
+                <svg class="icon icon--sm programs-accordion__arrow" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </div>
+            </button>
+            <div class="programs-accordion__content js-accordion-content">
+              <div class="programs-accordion__inner">
+                <div class="programs-accordion__body">
+                  <ul class="programs-list">
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-pedagog-psikholog/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Педагог-психолог</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-psikhologiya/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Психология</a>
+                    </li>
+                    <li class="programs-list__item">
+                      <svg class="icon icon--xs programs-list__icon" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-check"></use>
+                      </svg>
+                      <a href="https://institut-razvitiya.ru/pp-psikholog-v-sots-sfere/" target="_blank" rel="noopener noreferrer" class="programs-list__link">Психолог в социальной сфере</a>
+                    </li>
+                  </ul>
+                  <div class="programs-accordion__footer">
+                    <button type="button" class="btn btn--outline btn--sm programs-accordion__cta" data-modal-open="modal-consultation">
+                      <span>Записаться на курс</span>
+                      <svg class="icon icon--xs" aria-hidden="true">
+                        <use href="../icons/sprite.svg#icon-arrow-right"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+    
+        </div>
+    
+      </div>
+    </section>
+    <section class="activities-section" id="activities" aria-label="Дополнительные направления деятельности">
+      <div class="container reveal-on-scroll">
+        <div class="activities-grid">
+    
+          <!-- Левая колонка: Фотография студента/специалиста -->
+          <div class="activities-media">
+            <div class="activities-photo-wrap">
+              <img 
+                src="./assets/activities-student-COihZVD9.webp" 
+                alt="Направления деятельности Межрегионального института развития" 
+                class="activities-photo" 
+                width="640" 
+                height="427" 
+                loading="lazy"
+              >
+            </div>
+          </div>
+    
+          <!-- Правая колонка: Заголовок, направления и счетчики -->
+          <div class="activities-content">
+            <h2 class="activities-title">
+              Помимо организации обучения по дополнительным профессиональным программам к направлениям деятельности Межрегионального института развития также относятся:
+            </h2>
+    
+            <ul class="activities-list">
+              <li class="activities-item">
+                <span class="activities-item__icon-wrap">
+                  <svg class="icon icon--sm activities-item__icon" aria-hidden="true">
+                    <use href="../icons/sprite.svg#icon-check"></use>
+                  </svg>
+                </span>
+                <span class="activities-item__text">
+                  разработка и реализация дополнительных профессиональных программ по запросу заказчика;
+                </span>
+              </li>
+              <li class="activities-item">
+                <span class="activities-item__icon-wrap">
+                  <svg class="icon icon--sm activities-item__icon" aria-hidden="true">
+                    <use href="../icons/sprite.svg#icon-check"></use>
+                  </svg>
+                </span>
+                <span class="activities-item__text">
+                  организация научных, учебно-методических мероприятий на базе института;
+                </span>
+              </li>
+              <li class="activities-item">
+                <span class="activities-item__icon-wrap">
+                  <svg class="icon icon--sm activities-item__icon" aria-hidden="true">
+                    <use href="../icons/sprite.svg#icon-check"></use>
+                  </svg>
+                </span>
+                <span class="activities-item__text">
+                  организация выездных образовательных семинаров (с выдачей сертификата);
+                </span>
+              </li>
+              <li class="activities-item">
+                <span class="activities-item__icon-wrap">
+                  <svg class="icon icon--sm activities-item__icon" aria-hidden="true">
+                    <use href="../icons/sprite.svg#icon-check"></use>
+                  </svg>
+                </span>
+                <span class="activities-item__text">
+                  подготовка учебно-методических материалов, сборников, научно-практических обобщений;
+                </span>
+              </li>
+              <li class="activities-item">
+                <span class="activities-item__icon-wrap">
+                  <svg class="icon icon--sm activities-item__icon" aria-hidden="true">
+                    <use href="../icons/sprite.svg#icon-check"></use>
+                  </svg>
+                </span>
+                <span class="activities-item__text">
+                  изучение общественного мнения;
+                </span>
+              </li>
+              <li class="activities-item">
+                <span class="activities-item__icon-wrap">
+                  <svg class="icon icon--sm activities-item__icon" aria-hidden="true">
+                    <use href="../icons/sprite.svg#icon-check"></use>
+                  </svg>
+                </span>
+                <span class="activities-item__text">
+                  осуществление консалтинговой деятельности в области экономики и финансов, разработки и создания медийных продуктов.
+                </span>
+              </li>
+            </ul>
+    
+            <!-- Блок счетчиков / статистика -->
+            <div class="activities-stats">
+              <div class="activities-stat-card">
+                <div class="activities-stat-value">
+                  <span class="activities-stat-num">100</span>
+                  <span class="activities-stat-plus">+</span>
+                </div>
+                <div class="activities-stat-label">Программ обучения</div>
+              </div>
+    
+              <div class="activities-stat-card">
+                <div class="activities-stat-value">
+                  <span class="activities-stat-num">15</span>
+                  <span class="activities-stat-plus">+</span>
+                </div>
+                <div class="activities-stat-label">Направлений</div>
+              </div>
+            </div>
+    
+          </div>
+    
+        </div>
+      </div>
+    </section>
+    <section class="faq-section" id="faq" aria-label="Часто задаваемые вопросы">
+      <div class="container reveal-on-scroll">
+    
+        <!-- Заголовок секции -->
+        <div class="section-heading faq-section__heading">
+          <h2 class="faq-section__title">Часто задаваемые вопросы</h2>
+        </div>
+    
+        <div class="faq-grid">
+    
+          <!-- Левая колонка: Блок помощи (липкий) -->
+          <aside class="faq-sidebar">
+            <div class="faq-help-card">
+              <div class="faq-help-card__icon-wrap">
+                <svg class="icon icon--md" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-support"></use>
+                </svg>
+              </div>
+              <div class="faq-help-card__content">
+                <h3 class="faq-help-card__title">Не нашли ответ на свой вопрос?</h3>
+                <p class="faq-help-card__desc">
+                  Наши специалисты бесплатно проконсультируют вас по всем нюансам поступления и формату обучения.
+                </p>
+                <button type="button" class="btn btn--primary btn--sm faq-help-card__btn" data-modal-open="modal-consultation">
+                  <span>Задать вопрос</span>
+                  <svg class="icon icon--xs" aria-hidden="true">
+                    <use href="../icons/sprite.svg#icon-arrow-right"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </aside>
+    
+          <!-- Правая колонка: 7 аутентичных вопросов и ответов (аккордеон) -->
+          <div class="faq-accordion js-accordion">
+    
+            <!-- Вопрос 1 -->
+            <div class="faq-item js-accordion-item accordion-item--open">
+              <button type="button" class="faq-item__btn js-accordion-btn" aria-expanded="true">
+                <span class="faq-item__title">Какие документы выдаются слушателям по окончании дополнительной профессиональной программы?</span>
+                <span class="faq-item__arrow-wrap">
+                  <svg class="icon icon--sm faq-item__arrow" aria-hidden="true">
+                    <use href="../icons/sprite.svg#icon-chevron-down"></use>
+                  </svg>
+                </span>
+              </button>
+              <div class="faq-item__content js-accordion-content">
+                <div class="faq-item__inner">
+                  <div class="faq-item__body">
+                    <p>
+                      Лицам, успешно освоившим соответствующую дополнительную профессиональную программу и прошедшим итоговую аттестацию, выдаются документы о квалификации: удостоверение о повышении квалификации и (или) диплом о профессиональной переподготовке.
+                    </p>
+                    <p>
+                      Лицам, не прошедшим итоговой аттестации или получившим на итоговой аттестации неудовлетворительные результаты, а также лицам, освоившим часть дополнительной профессиональной программы и (или) отчисленным из организации, выдается справка об обучении или о периоде обучения.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <!-- Вопрос 2 -->
+            <div class="faq-item js-accordion-item">
+              <button type="button" class="faq-item__btn js-accordion-btn" aria-expanded="false">
+                <span class="faq-item__title">Чем отличается программа повышения квалификации и программа профессиональной переподготовки?</span>
+                <span class="faq-item__arrow-wrap">
+                  <svg class="icon icon--sm faq-item__arrow" aria-hidden="true">
+                    <use href="../icons/sprite.svg#icon-chevron-down"></use>
+                  </svg>
+                </span>
+              </button>
+              <div class="faq-item__content js-accordion-content">
+                <div class="faq-item__inner">
+                  <div class="faq-item__body">
+                    <p>
+                      <strong>Реализация программы повышения квалификации</strong> направлена на совершенствование и (или) получение новой компетенции, необходимой для профессиональной деятельности, и (или) повышение профессионального уровня в рамках имеющейся квалификации.
+                    </p>
+                    <p>
+                      <strong>Реализация программы профессиональной переподготовки</strong> направлена на получение компетенции, необходимой для выполнения нового вида профессиональной деятельности, приобретение новой квалификации.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <!-- Вопрос 3 -->
+            <div class="faq-item js-accordion-item">
+              <button type="button" class="faq-item__btn js-accordion-btn" aria-expanded="false">
+                <span class="faq-item__title">Кто допускается к освоению дополнительных профессиональных программ?</span>
+                <span class="faq-item__arrow-wrap">
+                  <svg class="icon icon--sm faq-item__arrow" aria-hidden="true">
+                    <use href="../icons/sprite.svg#icon-chevron-down"></use>
+                  </svg>
+                </span>
+              </button>
+              <div class="faq-item__content js-accordion-content">
+                <div class="faq-item__inner">
+                  <div class="faq-item__body">
+                    <p>
+                      К освоению дополнительных профессиональных программ допускаются:
+                    </p>
+                    <ul>
+                      <li>лица, имеющие среднее профессиональное и (или) высшее образование;</li>
+                      <li>лица, получающие среднее профессиональное и (или) высшее образование.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <!-- Вопрос 4 -->
+            <div class="faq-item js-accordion-item">
+              <button type="button" class="faq-item__btn js-accordion-btn" aria-expanded="false">
+                <span class="faq-item__title">Возможно ли освоение дополнительной профессиональной программы по индивидуальному плану?</span>
+                <span class="faq-item__arrow-wrap">
+                  <svg class="icon icon--sm faq-item__arrow" aria-hidden="true">
+                    <use href="../icons/sprite.svg#icon-chevron-down"></use>
+                  </svg>
+                </span>
+              </button>
+              <div class="faq-item__content js-accordion-content">
+                <div class="faq-item__inner">
+                  <div class="faq-item__body">
+                    <p>
+                      Да. Обучение по индивидуальному плану в пределах осваиваемой дополнительной профессиональной программы осуществляется в порядке, установленном локальными нормативными актами Организации.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <!-- Вопрос 5 -->
+            <div class="faq-item js-accordion-item">
+              <button type="button" class="faq-item__btn js-accordion-btn" aria-expanded="false">
+                <span class="faq-item__title">Какие виды учебной деятельности входят в дополнительную профессиональную программу?</span>
+                <span class="faq-item__arrow-wrap">
+                  <svg class="icon icon--sm faq-item__arrow" aria-hidden="true">
+                    <use href="../icons/sprite.svg#icon-chevron-down"></use>
+                  </svg>
+                </span>
+              </button>
+              <div class="faq-item__content js-accordion-content">
+                <div class="faq-item__inner">
+                  <div class="faq-item__body">
+                    <p>
+                      Образовательная деятельность обучающихся по дополнительной профессиональной программе может быть представлена следующими видами учебных занятий и учебных работ: лекции, практические и семинарские занятия, круглые столы, мастер-классы, деловые игры, тренинги, семинары по обмену опытом, выездные занятия, консультации и другие виды учебных занятий и учебных работ, определенные учебным планом.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <!-- Вопрос 6 -->
+            <div class="faq-item js-accordion-item">
+              <button type="button" class="faq-item__btn js-accordion-btn" aria-expanded="false">
+                <span class="faq-item__title">Реализует ли ваша организация обучение в дистанционном формате?</span>
+                <span class="faq-item__arrow-wrap">
+                  <svg class="icon icon--sm faq-item__arrow" aria-hidden="true">
+                    <use href="../icons/sprite.svg#icon-chevron-down"></use>
+                  </svg>
+                </span>
+              </button>
+              <div class="faq-item__content js-accordion-content">
+                <div class="faq-item__inner">
+                  <div class="faq-item__body">
+                    <p>
+                      Да, реализует. Для прохождения обучения достаточно лишь компьютера и выхода в Интернет. Данная дистанционная образовательная технология обеспечивает возможность доступа слушателей из любой точки нахождения, в которой имеется доступ к информационно–телекоммуникационной сети «Интернет».
+                    </p>
+                    <p>
+                      Использование и функционирование дистанционной образовательной технологии в Межрегиональном Институте развития отвечает всем необходимым требованиям, предусмотренным действующим законодательством и нормативно-правовыми актами.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <!-- Вопрос 7 -->
+            <div class="faq-item js-accordion-item">
+              <button type="button" class="faq-item__btn js-accordion-btn" aria-expanded="false">
+                <span class="faq-item__title">Какой минимальный срок освоения дополнительной профессиональной программы?</span>
+                <span class="faq-item__arrow-wrap">
+                  <svg class="icon icon--sm faq-item__arrow" aria-hidden="true">
+                    <use href="../icons/sprite.svg#icon-chevron-down"></use>
+                  </svg>
+                </span>
+              </button>
+              <div class="faq-item__content js-accordion-content">
+                <div class="faq-item__inner">
+                  <div class="faq-item__body">
+                    <p>
+                      Минимально допустимый срок освоения программы повышения квалификации — <strong>от 16 часов</strong>, а срок освоения программы профессиональной подготовки — <strong>от 250 часов</strong>.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+          </div>
+    
+        </div>
+    
+      </div>
+    </section>
+    <section class="news-section" id="news" aria-label="Статьи, проекты и мероприятия">
+      <div class="container reveal-on-scroll">
+    
+        <!-- Заголовок секции -->
+        <div class="section-heading news-section__heading">
+          <h2 class="news-section__title">Статьи, проекты, мероприятия</h2>
+        </div>
+    
+        <!-- Сетка из 3 аутентичных новостей -->
+        <div class="news-grid">
+    
+          <!-- Новость 1 -->
+          <article class="news-card">
+            <div class="news-card__media">
+              <a href="#news-1" class="news-card__media-link" tabindex="-1" aria-hidden="true">
+                <img 
+                  src="./assets/news-1-CHeT6UBw.webp" 
+                  alt="Итоги реализации проекта за октябрь 2026" 
+                  class="news-card__img" 
+                  width="600" 
+                  height="600" 
+                  loading="lazy"
+                >
+              </a>
+            </div>
+            <div class="news-card__body">
+              <div class="news-card__meta">
+                <svg class="icon icon--xs news-card__meta-icon" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-calendar"></use>
+                </svg>
+                <time datetime="2026-11-01" class="news-card__date">01.11.2026</time>
+              </div>
+              <h3 class="news-card__title">
+                <a href="#news-1" class="news-card__title-link">Реализация Проекта “Повышение бюджетной грамотности населения Саратовской области” – ИТОГИ ЗА ОКТЯБРЬ</a>
+              </h3>
+              <p class="news-card__excerpt">
+                Продолжается реализация Проекта "ПОВЫШЕНИЕ БЮДЖЕТНОЙ ГРАМОТНОСТИ НАСЕЛЕНИЯ САРАТОВСКОЙ ОБЛАСТИ" Проект является одним из основных мероприятий подпрограммы "Управление региональными финансами Саратовской области" государственной программы Саратовской области "Развитие государственного и муниципального управления".Ответственный исполнитель подпрограммы - министерство финансов...
+              </p>
+              <div class="news-card__footer">
+                <a href="#news-1" class="news-card__link">
+                  <span>Подробнее...</span>
+                  <svg class="icon icon--xs news-card__arrow" aria-hidden="true">
+                    <use href="../icons/sprite.svg#icon-arrow-right"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+    
+          <!-- Новость 2 -->
+          <article class="news-card">
+            <div class="news-card__media">
+              <a href="#news-2" class="news-card__media-link" tabindex="-1" aria-hidden="true">
+                <img 
+                  src="./assets/news-2-D70-awDV.webp" 
+                  alt="Прошли вебинары" 
+                  class="news-card__img" 
+                  width="600" 
+                  height="600" 
+                  loading="lazy"
+                >
+              </a>
+            </div>
+            <div class="news-card__body">
+              <div class="news-card__meta">
+                <svg class="icon icon--xs news-card__meta-icon" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-calendar"></use>
+                </svg>
+                <time datetime="2026-10-15" class="news-card__date">15.10.2026</time>
+              </div>
+              <h3 class="news-card__title">
+                <a href="#news-2" class="news-card__title-link">Прошли вебинары</a>
+              </h3>
+              <p class="news-card__excerpt">
+                В рамках Проекта "Повышение бюджетной грамотности населения Саратовской области" прошли вебинары: 14 октября т.г. - ПРАВОВЫЕ ОСНОВЫ И ПОРЯДОК ПРЕДОСТАВЛЕНИЯ СУБСИДИИ НА ВЫПОЛНЕНИЕ ГОСУДАРСТВЕННОГО ЗАДАНИЯ.Участники: главные распорядители бюджетных средств Саратовской области; 15 октября т.г. - СУБСИДИЯ...
+              </p>
+              <div class="news-card__footer">
+                <a href="#news-2" class="news-card__link">
+                  <span>Подробнее...</span>
+                  <svg class="icon icon--xs news-card__arrow" aria-hidden="true">
+                    <use href="../icons/sprite.svg#icon-arrow-right"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+    
+          <!-- Новость 3 -->
+          <article class="news-card">
+            <div class="news-card__media">
+              <a href="#news-3" class="news-card__media-link" tabindex="-1" aria-hidden="true">
+                <img 
+                  src="./assets/news-3-BxEiFxGB.webp" 
+                  alt="Прошли вебинары ВОПРОСЫ СОСТАВЛЕНИЯ И ПРЕДСТАВЛЕНИЯ БЮДЖЕТНОЙ ОТЧЕТНОСТИ" 
+                  class="news-card__img" 
+                  width="600" 
+                  height="600" 
+                  loading="lazy"
+                >
+              </a>
+            </div>
+            <div class="news-card__body">
+              <div class="news-card__meta">
+                <svg class="icon icon--xs news-card__meta-icon" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-calendar"></use>
+                </svg>
+                <time datetime="2026-10-14" class="news-card__date">14.10.2026</time>
+              </div>
+              <h3 class="news-card__title">
+                <a href="#news-3" class="news-card__title-link">Прошли вебинары “ВОПРОСЫ СОСТАВЛЕНИЯ И ПРЕДСТАВЛЕНИЯ БЮДЖЕТНОЙ (БУХГАЛТЕРСКОЙ) ОТЧЕТНОСТИ ЗА 9 МЕСЯЦЕВ”</a>
+              </h3>
+              <p class="news-card__excerpt">
+                12 и 13 октября 2026 г. в рамках Проекта "Повышение бюджетной грамотности населения Саратовской области" прошли ВЕБИНАРЫ "ВОПРОСЫ СОСТАВЛЕНИЯ И ПРЕДСТАВЛЕНИЯ БЮДЖЕТНОЙ (БУХГАЛТЕРСКОЙ) ОТЧЕТНОСТИ ЗА 9 МЕСЯЦЕВ". Проект является одним основных мероприятий подпрограммы «Управление региональными...
+              </p>
+              <div class="news-card__footer">
+                <a href="#news-3" class="news-card__link">
+                  <span>Подробнее...</span>
+                  <svg class="icon icon--xs news-card__arrow" aria-hidden="true">
+                    <use href="../icons/sprite.svg#icon-arrow-right"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+    
+        </div>
+    
+        <!-- Кнопка перехода ко всем новостям -->
+        <div class="news-section__action">
+          <a href="/blog/" class="btn btn--primary btn--lg news-section__btn">
+            <span>Все новости</span>
+            <svg class="icon icon--sm news-section__btn-icon" aria-hidden="true">
+              <use href="../icons/sprite.svg#icon-arrow-right"></use>
+            </svg>
+          </a>
+        </div>
+    
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       Section 10: Footer (Подвал сайта и контакты)
+       Фон: мягкий светло-серый (#eef0f4), строго 1:1 по структуре референса
+       ========================================================================== -->
+  <footer class="footer" id="footer">
+    <div class="footer__main">
+      <div class="container footer__container reveal-on-scroll">
+  
+        <!-- Левая колонка: Логотип и обязательные сведения -->
+        <div class="footer__col footer__col--brand">
+          <div class="footer__logo-wrap">
+            <a href="/" class="footer__logo-link" rel="home" title="Межрегиональный институт развития — Главная">
+              <img 
+                src="./assets/logo-emblem-BemDf4H3.png" 
+                alt="Эмблема МИР" 
+                class="footer__logo-emblem" 
+                width="48" 
+                height="54"
+                loading="lazy"
+              >
+              <div class="footer__logo-text">
+                <span class="footer__logo-line footer__logo-line--accent">Межрегиональный</span>
+                <span class="footer__logo-line footer__logo-line--primary">институт развития</span>
+              </div>
+            </a>
+          </div>
+  
+          <ul class="footer__legal-links">
+            <li class="footer__legal-item">
+              <a href="/information-about-organization/" class="footer__legal-link" target="_blank" rel="noopener noreferrer">
+                Сведения об образовательной организации
+              </a>
+            </li>
+            <li class="footer__legal-item">
+              <a href="/privacy-policy/" class="footer__legal-link" target="_blank" rel="noopener noreferrer">
+                Политика конфиденциальности
+              </a>
+            </li>
+          </ul>
+        </div>
+  
+        <!-- Правая колонка: Контактная плашка, соцсети и навигация -->
+        <div class="footer__col footer__col--content">
+          
+          <!-- Верхний ряд: Контактная информация и соцсети -->
+          <div class="footer__top-row">
+            <ul class="footer__contacts-list">
+              <li class="footer__contacts-item">
+                <svg class="icon icon--sm footer__contacts-icon" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-phone"></use>
+                </svg>
+                <a href="tel:+78452221213" class="footer__contacts-link footer__contacts-link--phone">+7 (845-2) 22-12-13</a>
+              </li>
+  
+              <li class="footer__contacts-item">
+                <svg class="icon icon--sm footer__contacts-icon" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-mail"></use>
+                </svg>
+                <a href="mailto:mir_do64@mail.ru" class="footer__contacts-link">mir_do64@mail.ru</a>
+              </li>
+  
+              <li class="footer__contacts-item">
+                <svg class="icon icon--sm footer__contacts-icon" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-calendar"></use>
+                </svg>
+                <span class="footer__contacts-text">Понедельник - Пятница 9:00 - 18:00</span>
+              </li>
+            </ul>
+  
+            <!-- Социальные сети -->
+            <div class="footer__socials" aria-label="Мы в социальных сетях">
+              <a href="#" class="footer__social-btn" aria-label="Facebook" title="Facebook">
+                <svg class="icon icon--sm" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+              <a href="#" class="footer__social-btn" aria-label="Instagram" title="Instagram">
+                <svg class="icon icon--sm" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
+              <a href="#" class="footer__social-btn" aria-label="ВКонтакте" title="ВКонтакте">
+                <svg class="icon icon--sm" aria-hidden="true">
+                  <use href="../icons/sprite.svg#icon-vk"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+  
+          <!-- Нижний ряд: Навигационное меню сайта -->
+          <nav class="footer__nav" aria-label="Навигация в подвале">
+            <ul class="footer__menu">
+              <li class="footer__menu-item">
+                <a href="/" class="footer__menu-link">ГЛАВНАЯ</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#about" class="footer__menu-link">О НАС</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#programs" class="footer__menu-link">ПРОГРАММЫ ОБУЧЕНИЯ</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#activities" class="footer__menu-link">ПРОЕКТЫ</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#news" class="footer__menu-link">НОВОСТИ</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#consultation" class="footer__menu-link">КОНТАКТЫ</a>
+              </li>
+            </ul>
+          </nav>
+  
+        </div>
+  
+      </div>
+    </div>
+  
+    <!-- Копирайт (нижняя полоса) -->
+    <div class="footer__bottom">
+      <div class="container footer__bottom-container">
+        <p class="footer__copyright">
+          Межрегиональный институт развития © 2026. Все права защищены.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <dialog class="modal js-modal" id="modal-consultation" aria-labelledby="modal-consultation-title" aria-modal="true">
+    <div class="modal__dialog">
+  
+      <!-- Кнопка закрытия -->
+      <button type="button" class="modal__close" data-modal-close aria-label="Закрыть окно">
+        <svg class="icon icon--md" aria-hidden="true">
+          <use href="../icons/sprite.svg#icon-close"></use>
+        </svg>
+      </button>
+  
+      <!-- Шапка модального окна -->
+      <div class="modal__head">
+        <h3 class="modal__title" id="modal-consultation-title">Заявка на консультацию</h3>
+        <p class="modal__subtitle">
+          Оставьте свои контакты, и мы перезвоним вам в ближайшее время
+        </p>
+      </div>
+  
+      <!-- Форма -->
+      <form class="modal__form js-consultation-modal-form" action="#" method="POST">
+  
+        <!-- Поле: Имя -->
+        <div class="form-group">
+          <label for="consult-name" class="form-label">
+            Ваше имя <span class="form-required" aria-hidden="true">*</span>
+          </label>
+          <input 
+            type="text" 
+            id="consult-name" 
+            name="name" 
+            class="form-input" 
+            placeholder="Иван Иванов" 
+            required 
+            autocomplete="name"
+          >
+        </div>
+  
+        <!-- Поле: Телефон -->
+        <div class="form-group">
+          <label for="consult-phone" class="form-label">
+            Номер телефона <span class="form-required" aria-hidden="true">*</span>
+          </label>
+          <input 
+            type="tel" 
+            id="consult-phone" 
+            name="phone" 
+            class="form-input js-phone-input" 
+            placeholder="+7 (___) ___-__-__" 
+            required 
+            autocomplete="tel"
+          >
+        </div>
+  
+        <!-- Поле: Сообщение (1. Требование: просто "Сообщение") -->
+        <div class="form-group">
+          <label for="consult-message" class="form-label">
+            Сообщение
+          </label>
+          <textarea 
+            id="consult-message" 
+            name="message" 
+            class="form-textarea" 
+            rows="3" 
+            placeholder="Напишите ваше сообщение..."
+          ></textarea>
+        </div>
+  
+        <!-- Согласие на обработку данных (3. По дефолту отжат, вертикальное выравнивание) -->
+        <div class="form-checkbox">
+          <input 
+            type="checkbox" 
+            id="consult-agreement" 
+            name="agreement" 
+            class="form-checkbox__input js-agreement-checkbox" 
+            required
+          >
+          <label for="consult-agreement" class="form-checkbox__label">
+            Я согласен на <a href="/privacy/" target="_blank" rel="noopener noreferrer" class="form-checkbox__link">обработку персональных данных</a>
+          </label>
+        </div>
+  
+        <!-- Кнопка отправки (4. Неактивна пока чекбокс не нажат) -->
+        <div class="modal__footer">
+          <button type="submit" class="btn btn--accent btn--lg modal__submit" disabled>
+            <span>Отправить заявку</span>
+            <svg class="icon icon--sm" aria-hidden="true">
+              <use href="../icons/sprite.svg#icon-arrow-right"></use>
+            </svg>
+          </button>
+        </div>
+  
+      </form>
+  
+    </div>
+  </dialog>
+
+  <!-- Кнопка "Наверх" -->
+  <button type="button" class="scroll-top-btn js-scroll-top" aria-label="Вернуться наверх" title="Наверх">
+    <svg class="icon icon--md" aria-hidden="true">
+      <use href="../icons/sprite.svg#icon-chevron-up"></use>
+    </svg>
+  </button>
+
+</body>
+</html>
